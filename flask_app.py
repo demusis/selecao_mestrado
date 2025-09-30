@@ -369,7 +369,7 @@ TPL_ORIENTADOR_FORM = TPL_HEADER_ADMIN + """
         <label>Atribuições de Avaliação</label>
         <div class="form-check">
             <input class="form-check-input" type="checkbox" name="avalia_curriculo" id="avalia_curriculo" {% if orientador and orientador.avalia_curriculo %}checked{% endif %}>
-            <label class="form-check-label" for="avalia_curriculo">Avaliador de Currículo</label>
+            <label class="form-check-label" for="avalia_curriculo">Avaliador de Currículo (apenas comissão)</label>
         </div>
         <div class="form-check">
             <input class="form-check-input" type="checkbox" name="avalia_entrevista" id="avalia_entrevista" {% if orientador and orientador.avalia_entrevista %}checked{% endif %}>
